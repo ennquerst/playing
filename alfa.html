@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+      <head>
+            <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+            <title>Little timer for getting things done</title>
+
+            <link rel="stylesheet" href="alfa.css" type="text/css" media="screen" charset="utf-8">
+            <link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="screen" charset="utf-8">
+            <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+            <script src="jquery.alfa/jquery.alfa.js" type="text/javascript" charset="utf-8"></script>
+            <script src="alfa.js" type="text/javascript" charset="utf-8"></script>
+      </head>
+      <body>
+            <div id="timer">
+
+                  <div id="display">
+                        hh:mm:ss
+                  </div>
+                  <form class="setTime" action="alfa_submit" method="get" accept-charset="utf-8">
+                  <table class="tbl" border="none">
+                        <tr>
+                              <th><i class="icon-time "></i> 00:00:12</th>
+                              <th>nothing just playing</th>
+                              <th>
+                                    <i class="icon-play"></i>
+                                    <i class="icon-pause"></i>
+                                    <i class="icon-remove"></i>
+
+                              </th>
+                        </tr>
+                        <tr class="focus">
+                              <th><i class="icon-time "></i> 00:00:12</th>
+                              <th>nothing just playing</th>
+                              <th><i class="icon-play"></i></th>
+                        </tr>
+                        <tr>
+                              <th><i class="icon-time "></i> 00:00:12</th>
+                              <th>nothing just playing</th>
+                              <th><i class="icon-play"></i></th>
+                        </tr>
+                        <tr>
+
+                              <th><label for="time"><i class="icon-time "></i></label>
+                               <input type="text" name="time" value="hh:mm:ss">
+                         </th>
+                              <th><input type="text" name="era" value="doing nothing">
+                              </th>
+                              <th>
+                                    <i class="icon-plus"></i>
+                                    <i class="icon-remove"></i>
+                              </th>
+
+                        </tr>
+
+
+
+
+                  </table>
+                        <p><input type="submit" value="Count down"></p>
+                  </form>
+            </div>
+      </body>
+</html>
