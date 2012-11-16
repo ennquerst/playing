@@ -71,6 +71,8 @@ a:hover{
 }
 
 .tbl tr {
+      padding: 50px;
+      margin: 49px;
 
 }
 
@@ -94,6 +96,7 @@ a:hover{
 
 .setTime input[type="text"] {
 
+      text-align: center;
       padding: 2px 5px;
       border: 1px solid #aaa;
 /*      -moz-box-shadow: 0px 0px 2px #aaa inset;

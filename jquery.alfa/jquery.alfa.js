@@ -10,6 +10,7 @@
 
       // A global array used by the functions of the plug-in:
       var gVars = {};
+      
 
       // Extending the jQuery core:
       $.fn.alfa = function(){
@@ -41,8 +42,27 @@
             $("#display").html("00:00:01");
 
       }
+      
+      setInterval(function(){
+      
+      
+
+      
+      }, 1000);
 
 
+
+      function countDown(var timeInSec){
+
+            timeInSec--;
+            
+      }
+
+      //parses time from give
+      function getTime(){}
+
+      //add next time loop to list
+      function add2List(){}
 
 
 
